@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        .entry {
+            margin-bottom: 15px;
+        }
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .entry-content {
+            padding-left: 20px;
+        }
+        .skills {
+            margin-left: 20px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>王子平</h1>
+    <div class="contact-info">
+        电话: 157-0007-7400 | 邮箱: <a href="mailto:0xkayne@gmail.com">0xkayne@gmail.com</a><br>
+        Github: <a href="https://github.com/zipingw">https://github.com/zipingw</a>
+    </div>
+
+    <div class="section">
+        <div class="section-title">教育背景</div>
+        <div class="entry">
+            <div class="entry-header">
+                <span>浙江大学工程师学院</span>
+                <span>2023.09 – 至今</span>
+            </div>
+            <div class="entry-content">
+                计算机技术-移动智慧物联网项目<br>
+                科研方向：区块链与物联网交叉领域
+            </div>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span>浙江工业大学计算机学院</span>
+                <span>2019.09 - 2023.06</span>
+            </div>
+            <div class="entry-content">
+                计算机科学与技术<br>
+                GPA：3.55 / 5.00
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">专业技能</div>
+        <div class="entry">
+            <div class="entry-content">
+                <strong>英文水平：</strong>CET-4: 548，CET-6: 505<br>
+                <strong>专业知识：</strong>
+                <div class="skills">
+                    1. 熟悉数据结构、计算机网络、计算机组成、操作系统、数据库等计算机基础知识<br>
+                    2. 了解比特币、以太坊底层原理（如共识协议、Merkle Tree、MPT）<br>
+                    3. 关注Web3生态中的商业版图：Layer1公链、Layer2扩容、钱包、交易所、DePIN、DeFi、NFT、DAO、SocialFi；对Web3的商业逻辑有较清晰的认知
+                </div>
+                <strong>开发能力：</strong>
+                <div class="skills">
+                    1. 熟练使用Linux系统，熟悉SSH、Tmux、Vim、Git、MySQL、Thrift、Docker<br>
+                    2. 熟练使用 Python、C++、JAVA语言，会简单使用Golang、Solidity、JavaScript<br>
+                    3. 熟悉后端框架Django、Spring Boot；熟悉Dapp架构与开发流程<br>
+                    4. 熟悉Tensorflow、Pytorch框架
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">科研经历</div>
+        <div class="entry">
+            <div class="entry-header">
+                <span>TimeChain（尚未发表，工作内容基本完成）</span>
+                <span>2023.11-2024.6</span>
+            </div>
+            <div class="entry-content">
+                <strong>论文简介：</strong>针对目前物联网领域时序数据具有数据密集、价值密度低、本地存储困难的特点，引入区块链技术提供一种安全高效的数据存储方案，相比于中心化的存储方案具有避免单点故障、存储成本低、提供点对点存储等优势。<br>
+                <strong>技术点：</strong>
+                <div class="skills">
+                    1. 提出基于谱聚类算法的数据打包机制<br>
+                    2. 提出一种综合考虑传输距离与节点声誉的共识算法<br>
+                    3. 提出一种新的ADS结构LSH Tree用于计算传输数据的摘要信息
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">项目经历</div>
+        <div class="entry">
+            <div class="entry-header">
+                <span>基于树莓派的健身管理系统</span>
+                <span>2020.11-2022.01</span>
+            </div>
+            <div class="entry-content">
+                <strong>项目简介：</strong>实现系统如下：用户通过微信小程序扫描健身器械二维码，启动健身器械搭载的树莓派4B的运动识别算法，对用户的运动进行计数并保留历史运动数据。<br>
+                <strong>技术点：</strong>
+                <div class="skills">
+                    1. 在树莓派4B上开发运动识别算法<br>
+                    2. 开发微信小程序实现前端界面<br>
+                    3. 在阿里云服务器上实现后端负责实现树莓派4B与微信小程序的通信
+                </div>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span>基于网络科学的以太坊钓鱼账户检测</span>
+                <span>2022.03-2022.05</span>
+            </div>
+            <div class="entry-content">
+                <strong>项目简介：</strong>针对目前加密货币领域的诈骗行为(如庞氏骗局)，通过分析Ethereum上的交易数据识别钓鱼账户。<br>
+                <strong>技术点：</strong>
+                <div class="skills">
+                    1. 数据工程：将交易数据构建成图数据结构，通过手工特征与图随机游走等方法对账户进行特征提取<br>
+                    2. 模型训练与预测：采用异常检测、机器学习、图神经网络对以太坊账户进行分类
+                </div>
+                <strong>成果：</strong>实验结果中集成学习模型 LightGBM 表现结果最佳，达到85.6%左右的F1-score。
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span>面向图像表示模型的知识蒸馏算法研究（本科毕设）</span>
+                <span>2023.01-2023.05</span>
+            </div>
+            <div class="entry-content">
+                <strong>项目简介：</strong>此前的知识蒸馏方法主要针对深度分类模型，因而无法将现有知识蒸馏算法直接应用于图像表示模型。本课题研究面向图像表示模型的知识蒸馏算法。Github地址 <a href="https://github.com/zipingw/Knowledge-Distillation">https://github.com/zipingw/Knowledge-Distillation</a><br>
+                <strong>创新点：</strong>
+                <div class="skills">
+                    1. 针对图像表示模型缺失线性分类层，引入对比损失函数InfoNCE用于表示层知识蒸馏<br>
+                    2. 将基于注意力机制的中间层软匹配方法与基于注意力图的中间层知识蒸馏方法相结合<br>
+                    3. 引入数据增强，提高知识蒸馏效果
+                </div>
+                <strong>成果：</strong>所设计知识蒸馏算法能够有效保留图像表示模型的模型性能并减少模型参数量。
+            </div>
+        </div>
+    </div>
+</body>
+</html>
